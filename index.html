@@ -40,49 +40,153 @@ time, mark, audio, video, div {
         font: 11px sans-serif;
         vertical-align: baseline;
 		color: #404040;
-}
+		
+/* Layout styling */
 
-html, body {
-	
-}
-
-.wrapper {
-	
 }
 
 .header {
-	
+	width: 100%;
+	background: #06799F;
+	height: 70px;
+	position: fixed;
+	top: 0;
+  	left: 0;
+  	z-index: 999;
+}
+
+.sub-header {
+	padding-top: 60px;
+	padding-left: 130px;
+}
+
+.nav-icon {
+	float: right;
+	padding-top: 10px;
+	padding-right: 25px;
 }
 
 .color-panel {
+	background: #06799F;
+	height: 300px;
 	
 }
  
- .overview {
- 	
- }
- 
- .3column {
- 	
+ .content {
+ 	margin: 0 auto;
+ 	width: 70%;
+	background: #ffffff;
+
  }
  
  .footer {
- 	
+ 	height: 200px;
+ 	background: #c0c0c0;
+ 	padding-top: 75px;
  }
  
+ /* fonts styling */
+ 
+h1 {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 36px;
+	padding: 20px;
+}
+
+h2 {
+	color: #ffffff;
+	font-size: 24px;
+	postition: relative;
+	padding-top: 200px;
+	padding-left: 20px;
+}
+
+h3 {
+	font-size: 20px;
+	color: #666666;
+	margin-left: 50px;
+	padding-bottom: 20px;
+}
+
+h6 {
+	padding-left: 40%;
+	padding-top: 80px;
+	font-size: 200px;
+	color: #ffffff;
+}
+
+p {
+	font-size: 18px;
+	font
+	color: #666666;
+	margin-left: 50px;
+	padding-bottom: 50px;
+	line-height:150%;
+	
+}
         </style>
         
 <body>
         <div class="wrapper"><!-- WRAPPER--> 
-        	<div class="header"><!-- HEADER--> 	
+        	<div class="header"><!-- HEADER--> 
+        		<h1>Peter J Ford</h1>
+        		<a href="#contact"><img class="nav-icon" src="images/contact.png" alt="Contact"></a>
+        		<img class="nav-icon" src="images/desktop.png" alt="Desktop">
+        		<img class="nav-icon" src="images/mobile.png" alt="Mobile">	
         	</div><!-- HEADER-->
+        	
         	<div class="color-panel"><!-- COLOR-PANEL-->
+        		<h6>UX</h6>
         	</div><!-- COLOR-PANEL-->
-        	<div class="overview"><!-- OVERVIEW-->
-        	</div><!-- OVERVIEW-->
-        	<div class="3column"><!-- 3COLUMN-->
-        	</div><!-- 3COLUMN-->
-        	<div class="footer"><!-- FOOTER-->	
+        	
+        	<div class="sub-header"><!-- SUB HEADER-->
+        		<h3>BIO</h3>
+        	</div><!-- SUB HEADER-->
+        	
+        	<div class="content" id="bio"><!-- CONTENT-->
+        		<p>	Having been working in the UX/UI space for the last 15 years, Pete has had a broad range of experience working at all levels of leadership and on many varied projects.<br><br>
+        			Since the beginning of his career, Pete has been working with mobile companies and services, back when Nokia ruled the world and the iPhone was not yet a glint in Apple's eye.<br><br>
+        			Having 'been around a hile' Pete has worked on many mobile projects, web sites, web apps and installed desktop software. He is no stranger to rolling up his sleeves and getting involved with day to day deliverables, as well as taking a step back to lead, inspire and plan.<br><br>
+        			This portfolio is a small taste of what he has acheived over the years, and hopefully it will inspire you to want to learn more!		
+        		</p>
+        	</div><!-- CONTENT-->
+
+        	<div class="sub-header"><!-- SUB HEADER-->
+        		<h3>MOBILE</h3>
+        	</div><!-- SUB HEADER-->
+        	
+        	<div class="content" id="mobile"><!-- CONTENT-->
+        		<p>	In the mobile space ...		
+        		</p>
+        	</div><!-- CONTENT--> 
+        	
+        	<div class="sub-header"><!-- SUB HEADER-->
+        		<a name="web"><h3>WEB</h3></a>
+        		
+        	</div><!-- SUB HEADER-->
+        	
+        	<div class="content" id="web"><!-- CONTENT-->
+        		<p>	In the web app space ...		
+        		</p>
+        	</div><!-- CONTENT-->
+        	
+        	<div class="sub-header"><!-- SUB HEADER-->
+        		<a name="desktop"><h3>DESKTOP</h3></a>
+        	</div><!-- SUB HEADER-->
+        	
+        	<div class="content" id="desktop"><!-- CONTENT-->
+        		<p>	In the desktop space ...		
+        		</p>
+        	</div><!-- CONTENT-->      	
+
+        	<div class="footer"><!-- FOOTER-->
+        		<a name="contact"><h3>CONTACT</h3></a>	
+        		<p>
+        			Pete is centrally located in Los Angeles CA<br><br>
+        			Cell: 310-480-5127<br>
+        			Email: pete@u53r.com<br>
+        		</p>
         	</div><!-- FOOTER-->
         </div><!-- WRAPPER-->     
                         
