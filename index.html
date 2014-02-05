@@ -55,16 +55,27 @@ time, mark, audio, video, div {
   	z-index: 999;
 }
 
-.sub-header {
-	padding-top: 60px;
-	padding-left: 130px;
-}
-
 .nav-icon {
 	float: right;
 	padding-top: 10px;
 	padding-right: 25px;
 }
+
+.sub-header {
+	height: 65px;
+	padding-top: 40px;
+	padding-left: 130px;
+
+}
+
+.icon {
+	display: inline;
+	float: right;
+	padding-right: 130px;
+	padding-top: 0px;
+}
+
+
 
 .color-panel {
 	background: #06799F;
@@ -80,9 +91,15 @@ time, mark, audio, video, div {
  }
  
  .footer {
- 	height: 200px;
+ 	height: 250px;
  	background: #c0c0c0;
- 	padding-top: 75px;
+ 	padding-top: 45px;
+ 	padding-left: 130px;
+ }
+ 
+ .footer p {
+ 	padding-left: 120px;
+ 	padding-top: 50px;
  }
  
  /* fonts styling */
@@ -103,6 +120,7 @@ h2 {
 }
 
 h3 {
+	display: inline;
 	font-size: 20px;
 	color: #666666;
 	margin-left: 50px;
@@ -116,7 +134,7 @@ h6 {
 	color: #ffffff;
 }
 
-p {
+p, a {
 	font-size: 18px;
 	font
 	color: #666666;
@@ -132,6 +150,7 @@ p {
         	<div class="header"><!-- HEADER--> 
         		<h1>Peter J Ford</h1>
         		<a href="#contact"><img class="nav-icon" src="images/contact.png" alt="Contact"></a>
+        		<a href="#web"><img class="nav-icon" src="images/web.png" alt="Web"></a>
         		<img class="nav-icon" src="images/desktop.png" alt="Desktop">
         		<img class="nav-icon" src="images/mobile.png" alt="Mobile">	
         	</div><!-- HEADER-->
@@ -153,7 +172,7 @@ p {
         	</div><!-- CONTENT-->
 
         	<div class="sub-header"><!-- SUB HEADER-->
-        		<h3>MOBILE</h3>
+        		<a name="mobile"><h3>MOBILE</h3></a>
         	</div><!-- SUB HEADER-->
         	
         	<div class="content" id="mobile"><!-- CONTENT-->
@@ -163,7 +182,6 @@ p {
         	
         	<div class="sub-header"><!-- SUB HEADER-->
         		<a name="web"><h3>WEB</h3></a>
-        		
         	</div><!-- SUB HEADER-->
         	
         	<div class="content" id="web"><!-- CONTENT-->
@@ -184,8 +202,8 @@ p {
         		<a name="contact"><h3>CONTACT</h3></a>	
         		<p>
         			Pete is centrally located in Los Angeles CA<br><br>
-        			Cell: 310-480-5127<br>
-        			Email: pete@u53r.com<br>
+        			310-480-5127
+        			<a href="mailto:pete@u53r.com">Pete@u53r.com</a><br>
         		</p>
         	</div><!-- FOOTER-->
         </div><!-- WRAPPER-->     
